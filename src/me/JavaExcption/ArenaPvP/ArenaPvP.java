@@ -16,7 +16,6 @@ public class ArenaPvP extends JavaPlugin {
     protected Logger logger;
     private UpdateChecker updateChecker;
 
-    @Override
     public void onEnable() {
 
         plugin = this;
@@ -33,13 +32,12 @@ public class ArenaPvP extends JavaPlugin {
         registerEvents();
     }
 
-    @Override
     public void onDisable() {
 
     }
 
     protected void registerCommands() {
-
+        //TODO Admin Base Command construction
     }
 
     protected void registerEvents() {
