@@ -1,6 +1,6 @@
 package me.JavaExcption.ArenaPvP.util;
 
-import net.md_5.bungee.api.ChatColor;
+import org.bukkit.ChatColor;
 
 /**
  * Created by Henry on 2/3/2016.
